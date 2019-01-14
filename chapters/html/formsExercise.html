@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Exercise</title>
+</head>
+<body>
+    <h2>Register</h2>
+    <form action="" method="GET">
+        <label for="firstName">First Name:</label>
+        <input id="firstName" name="firstName" type="text" placeholder="John" required>
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" name="lastName" type="text" placeholder="Smith" required>
+        <div>
+            <label for="male">Male</label>
+            <input name="gender" id="male" type="radio" value="male" >
+            <label for="female">Female</label>
+            <input name="gender" id="female" type="radio" value="female" >
+            <label for="other">Other</label>
+            <input name="gender" id="other" type="radio" value="other" >
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input name="email" id="email" type="email" placeholder="your email" required>
+            <label for="password">Password:</label>
+            <input name="password" id="password" type="password" placeholder="your password" required pattern=".{5,10}" title="5 to 10 characters">
+        </div>
+        <div>
+            <label>
+                Birthday:
+                <select name="month">
+                    <option value="Month">Month</option>
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                </select>
+                <select name="day">
+                    <option value="Day">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="year">
+                    <option value="Year">Year</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                </select>
+            </label>
+        </div>
+        <label for="terms">I aggree to terms and conditions:</label>
+        <input name="terms" id="terms" type="checkbox">
+        <input type="submit">
+    </form>
+</body>
+</html>
