@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+}
+
+li {
+    border: 2px solid yellow;
+}
+
+/* id based */
+id can be assigned just to one
+#special {
+    color: blue;
+}
+
+/* class based */
+/* class can be assigned to multiples */
+.highlight {
+    color: yellow;
+}
+
+

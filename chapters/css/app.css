@@ -1,0 +1,25 @@
+body {
+    background-color: turquoise;
+    /* background: url(https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/513d38c9-525e-463d-9492-e555058d5e2a/leather2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+h1 {
+    color: blue;
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    /* border: 5px solid purple; */
+    border: 10px dashed pink;
+}
+
+h4 {
+    color: purple;
+    background-color: gray;
+}
+
+li {
+    color: green;
+}
+
