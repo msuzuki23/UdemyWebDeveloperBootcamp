@@ -1,0 +1,39 @@
+/* font-family */
+
+/* font-size */
+
+/* font-weight */
+
+/* font-height */
+
+/* text-align */
+
+/* text-decoration */
+
+body {
+    font-size: 10px;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    /* font-family: "Georgia"; */
+    /* font-size: 100px; */
+    font-size: 5em;
+    text-align: right;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    /* font-family: "Arial"; */
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
