@@ -1,0 +1,16 @@
+p {
+    font-family: 'Coiny', cursive;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-left: 1.66%;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
