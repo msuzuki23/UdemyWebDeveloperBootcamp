@@ -1,0 +1,9 @@
+NOTE: To Make Bootstrap more responsive on Mobile Devices
+    Note about making bootstrap responsive on mobile devices
+    Section 7, Lecture 87
+
+    If you want your bootstrap styled website to be responsive on mobile then be sure to add the following meta tag to your <head>  element, above the <title>  tag:
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    As a side note, if you can't get the <hr> element to appear correctly on mobile devices then see here for a fix.
